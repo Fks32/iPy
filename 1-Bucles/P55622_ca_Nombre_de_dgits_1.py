@@ -6,3 +6,11 @@
 from yogi import read
 
 n = read(int)
+num = n
+d = 1
+while (num > 9):
+    d += 1
+    num //= 10
+
+print('El nombre de digits de', n, 'es', d, end='.\n')
+    
